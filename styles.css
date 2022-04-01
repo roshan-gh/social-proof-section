@@ -11,10 +11,6 @@ body {
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
 }
 
-#main {
-    margin: 100px 10%;
-}
-
 h1 {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
@@ -79,7 +75,7 @@ p {
 }
 
 .attribution {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 11px;
     text-align: center;
 }
@@ -93,6 +89,16 @@ p {
     border-radius: 7px;
     padding: 25px;
     margin: 10px 0;
+}
+
+.card-2 {
+    position: relative;
+    top: 14px;
+}
+
+.card-3 {
+    position: relative;
+    top: 28px;
 }
 
 .profile-photo {
@@ -113,8 +119,24 @@ p {
     text-align: left;
 }
 
+#main {
+    margin: 100px 10%;
+}
+
+#lower-part {
+    margin-top: 15px;
+}
+
 @media(max-width: 400px) {
     body {
         text-align: center;
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    }
+    .cards {
+        text-align: left;
+    }
+    .card-2,
+    .card-3 {
+        top: 0;
     }
 }
