@@ -104,7 +104,7 @@ p {
 }
 
 .titles {
-    width: 85%;
+    width: 70%;
 }
 
 .quotes {
@@ -131,10 +131,13 @@ p {
     margin-top: 15px;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 500px) {
     body {
         text-align: center;
         background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    }
+    p {
+        display: block;
     }
     .cards {
         text-align: left;
@@ -145,5 +148,9 @@ p {
     }
     .stars-rate {
         margin: 10px auto;
+        padding: 10px;
+    }
+    .titles {
+        margin: 0 auto;
     }
 }
