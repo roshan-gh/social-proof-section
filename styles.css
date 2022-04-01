@@ -17,7 +17,7 @@ h1 {
     margin: 15px 0;
 }
 
-h3 {
+h2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5rem;
@@ -25,12 +25,12 @@ h3 {
     color: hsl(303, 10%, 53%);
 }
 
-h4 {
+h3 {
     color: #ffffff;
     font-size: 15px;
 }
 
-h5 {
+h4 {
     color: hsl(333, 80%, 67%);
     font-size: 13px;
 }
